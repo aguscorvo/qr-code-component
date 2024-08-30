@@ -20,7 +20,7 @@ main {
   height: 100%;
 }
 
-section {
+.card {
   width: 325px;
   background: hsl(0, 0%, 100%);
   display: flex;
@@ -30,6 +30,7 @@ section {
   border-radius: 20px;
   padding: 18px;
   gap: 22px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 article {
